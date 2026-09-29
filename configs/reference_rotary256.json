@@ -1,0 +1,4 @@
+{
+  "vocab": 2048, "width": 256, "heads": 4, "depth": 6,
+  "ffn_hidden": 688, "context": 256, "residual_dropout": 0.2
+}

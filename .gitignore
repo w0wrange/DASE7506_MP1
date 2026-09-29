@@ -1,0 +1,16 @@
+.venv/
+.venv-cpu/
+__pycache__/
+*.pyc
+*.pt
+runs/*
+!runs/baseline-s17/
+runs/baseline-s17/*
+!runs/baseline-s17/checkpoint.pt
+!runs/independent-teacher-9600-s71/
+runs/independent-teacher-9600-s71/*
+!runs/independent-teacher-9600-s71/checkpoint-average.pt
+!runs/extend-8400-fastcache-s29/
+runs/extend-8400-fastcache-s29/*
+!runs/extend-8400-fastcache-s29/checkpoint.pt
+!reports/born-again-qknorm348-19200/born-again-fast/checkpoint.pt

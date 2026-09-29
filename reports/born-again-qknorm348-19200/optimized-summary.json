@@ -1,0 +1,38 @@
+{
+  "results": {
+    "born-again": {
+      "checkpoint": "reports\\born-again-qknorm348-19200\\born-again-fast\\checkpoint.pt",
+      "checkpoint_sha256": "981d85a72df78ffa0a53845f1e00f2ddf0334c40682afaa7ad0d476274def681",
+      "implementation_sha256": "e1cf226580954ad73ef9e8cbc261b8e4b45c1d8dd1ae71546dd872ebb512f271",
+      "cpu_validation_bpb": 1.4501509920851057,
+      "bpb_delta_from_training_implementation": 0.0,
+      "baseline_before_seconds": 6.115726999996696,
+      "baseline_after_seconds": 6.095684100000653,
+      "candidate_seconds": 28.65742840000894,
+      "cpu_ratio_fastest": 4.701265342803094,
+      "cpu_ratio_mean": 4.693549036280526,
+      "peak_ram_gib": 1.6518936157226562,
+      "inference_asset_bytes": 34743281,
+      "resource_pass": true
+    },
+    "direct": {
+      "checkpoint": "reports\\born-again-qknorm348-19200\\direct-fast\\checkpoint.pt",
+      "checkpoint_sha256": "fd085a0c6da1fad6ffb886755ec5987f371c2d372c2f9ee5db001664fd0419aa",
+      "implementation_sha256": "e1cf226580954ad73ef9e8cbc261b8e4b45c1d8dd1ae71546dd872ebb512f271",
+      "cpu_validation_bpb": 1.448343301211097,
+      "bpb_delta_from_training_implementation": 0.0,
+      "baseline_before_seconds": 6.134472200006712,
+      "baseline_after_seconds": 8.281668200012064,
+      "candidate_seconds": 32.915136800002074,
+      "cpu_ratio_fastest": 5.365602080642905,
+      "cpu_ratio_mean": 4.566428445710643,
+      "peak_ram_gib": 1.6526260375976562,
+      "inference_asset_bytes": 34740849,
+      "resource_pass": false
+    }
+  },
+  "selected": "born-again",
+  "old_best_validation_bpb": 1.468614158,
+  "selection_split": "validation",
+  "test_evaluated": false
+}

@@ -1,0 +1,49 @@
+{"step": 100, "loss": 5.931267261505127, "seconds": 33.95238900000004}
+{"step": 200, "loss": 5.241191387176514, "seconds": 76.34865280000122}
+{"step": 300, "loss": 4.939332485198975, "seconds": 113.55446900000061}
+{"step": 400, "loss": 4.678946018218994, "seconds": 147.20193740000104}
+{"step": 500, "loss": 4.665628910064697, "seconds": 183.72115680000024}
+{"step": 600, "loss": 4.527519226074219, "seconds": 222.0465357000012}
+{"step": 700, "loss": 4.438354015350342, "seconds": 254.13524060000054}
+{"step": 800, "loss": 4.458525657653809, "seconds": 287.5380261999999}
+{"step": 900, "loss": 4.380016326904297, "seconds": 325.63216079999984}
+{"step": 1000, "loss": 4.35355806350708, "seconds": 364.4095104000007}
+{"step": 1100, "loss": 4.31510066986084, "seconds": 400.14075420000154}
+{"step": 1200, "loss": 4.316905498504639, "seconds": 443.0434847000015}
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 1088256,
+  "precision": "fp32",
+  "train_tokens": 9830400,
+  "preparation_seconds": 10.00438689999828,
+  "train_seconds": 443.0435793000015,
+  "validation": {
+    "bpb": 2.071083638533899,
+    "token_ppl": 79.52826100503707,
+    "nll_nats": 1648039.5698576316,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 8.905177799999365
+  },
+  "history": [],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 461.99363690000064,
+  "torch_version": "2.7.1+cpu",
+  "threads": 4,
+  "checkpoint_sha256": "b7fdb67c8ef14b5166c0de1f17cf306f34800b41dfe97da856c9812cdb1f9701",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}

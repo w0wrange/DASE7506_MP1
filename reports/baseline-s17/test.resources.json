@@ -1,0 +1,41 @@
+{
+  "started_at_utc": "2026-09-17T16:35:51.604880+00:00",
+  "finished_at_utc": "2026-09-17T16:36:09.283028+00:00",
+  "command": [
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\.venv\\Scripts\\python.exe",
+    "evaluate.py",
+    "--checkpoint",
+    "runs\\baseline-s17\\checkpoint.pt",
+    "--device",
+    "cpu",
+    "--precision",
+    "fp32",
+    "--threads",
+    "4",
+    "--split",
+    "test",
+    "--output",
+    "runs\\baseline-s17\\test_cpu_fp32.json"
+  ],
+  "command_line": "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\.venv\\Scripts\\python.exe evaluate.py --checkpoint runs\\baseline-s17\\checkpoint.pt --device cpu --precision fp32 --threads 4 --split test --output runs\\baseline-s17\\test_cpu_fp32.json",
+  "cwd": "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code",
+  "exit_code": 0,
+  "wall_seconds_including_imports_and_loading": 17.677552099999957,
+  "process_cpu_seconds_all_threads": 36.390625,
+  "peak_working_set_bytes": 1684230144,
+  "peak_working_set_mib": 1606.20703125,
+  "peak_working_set_gib": 1.5685615539550781,
+  "peak_commit_bytes": 2564247552,
+  "peak_commit_mib": 2445.45703125,
+  "memory_method": "Windows GetProcessMemoryInfo lifetime high-water marks; fresh process per command; includes Python, imports, loading and target execution. Peak working set is resident RAM; peak commit is separate.",
+  "timing_method": "Target wall and process CPU time include imports/loading, exclude recorder setup/report writing. Use original metrics.json/evaluation seconds for pure training/scoring.",
+  "python_version": "3.12.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpu_count": 20,
+  "packages": {
+    "torch": "2.7.1+cpu",
+    "numpy": "2.5.3",
+    "tokenizers": "0.21.4"
+  }
+}

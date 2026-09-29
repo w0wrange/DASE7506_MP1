@@ -1,0 +1,76 @@
+{
+  "purpose": "Compact final inference, starting teachers, baseline, and fixed scoring assets",
+  "archive": "../legacy_experiments_2026-09-29",
+  "assets": [
+    {
+      "path": "reports\\born-again-qknorm348-19200\\born-again-fast\\checkpoint.pt",
+      "bytes": 34607477,
+      "sha256": "981d85a72df78ffa0a53845f1e00f2ddf0334c40682afaa7ad0d476274def681"
+    },
+    {
+      "path": "runs\\independent-teacher-9600-s71\\checkpoint-average.pt",
+      "bytes": 23194205,
+      "sha256": "23cc7362922f10261c2ae0df75d2657044069806cf209f1b7af0c9974b54b832"
+    },
+    {
+      "path": "runs\\extend-8400-fastcache-s29\\checkpoint.pt",
+      "bytes": 23283381,
+      "sha256": "cc2a0fe10c4a760d1cb47e88d7a3479c981daf412175f081aa95d282a28b6b76"
+    },
+    {
+      "path": "runs\\baseline-s17\\checkpoint.pt",
+      "bytes": 4370805,
+      "sha256": "b7fdb67c8ef14b5166c0de1f17cf306f34800b41dfe97da856c9812cdb1f9701"
+    },
+    {
+      "path": "student_qknorm_rotary.py",
+      "bytes": 5487,
+      "sha256": "372e96361e0539591578fdafc8c9f157569fb05b7ff91d99d196f1943d3c4a13"
+    },
+    {
+      "path": "student_qknorm_rotary_inference.py",
+      "bytes": 908,
+      "sha256": "e1cf226580954ad73ef9e8cbc261b8e4b45c1d8dd1ae71546dd872ebb512f271"
+    },
+    {
+      "path": "student_reference_rotary.py",
+      "bytes": 5152,
+      "sha256": "695f8ed07aeb929808eefa0b018087e69a827e7141ac6f8607cf80808fbd5936"
+    },
+    {
+      "path": "common.py",
+      "bytes": 3302,
+      "sha256": "d40dc1fe6578b5993a563bdb4d9e5317ddc9fae8afe48822b66571c7042e84db"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 3437,
+      "sha256": "128bcb2dab0be0d427505bddb4671e3ab3a8f78e114be79a689c0f9029af133d"
+    },
+    {
+      "path": "data\\tokenizer.json",
+      "bytes": 121943,
+      "sha256": "020d1bc6aa4449c4f352b2e03d0e0fb4f39287f15297705e421b1fa7d817262e"
+    },
+    {
+      "path": "data\\manifest.json",
+      "bytes": 682,
+      "sha256": "f4790bb599d9fcd04e48263e685335e2f62d9bca0324b08061a10c38984f4fe4"
+    },
+    {
+      "path": "reports\\born-again-qknorm348-19200\\frozen-selection.json",
+      "bytes": 793,
+      "sha256": "69c0b1aa4a3b968ef479615a2cd03352e8fb1ffc39c09b1e192d84b280028693"
+    },
+    {
+      "path": "reports\\born-again-qknorm348-19200\\selected-test.json",
+      "bytes": 735,
+      "sha256": "db328af8808fed43e79fa9c9ab112cd05db2e535b50c15c49ce38dc768b4484b"
+    },
+    {
+      "path": "reports\\born-again-qknorm348-19200\\final-results.json",
+      "bytes": 1081,
+      "sha256": "f6455ffca63c2c2c698dbcc672b3ea5cd0357f4a664aafb4f257a30274b92bcc"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "method": "born-again",
+  "checkpoint": "reports\\born-again-qknorm348-19200\\born-again-fast\\checkpoint.pt",
+  "checkpoint_sha256": "981d85a72df78ffa0a53845f1e00f2ddf0334c40682afaa7ad0d476274def681",
+  "implementation_sha256": "e1cf226580954ad73ef9e8cbc261b8e4b45c1d8dd1ae71546dd872ebb512f271",
+  "cpu_validation_bpb": 1.4501509920851057,
+  "bpb_delta_from_training_implementation": 0.0,
+  "baseline_before_seconds": 6.115726999996696,
+  "baseline_after_seconds": 6.095684100000653,
+  "candidate_seconds": 28.65742840000894,
+  "cpu_ratio_fastest": 4.701265342803094,
+  "cpu_ratio_mean": 4.693549036280526,
+  "peak_ram_gib": 1.6518936157226562,
+  "inference_asset_bytes": 34743281,
+  "resource_pass": true,
+  "selection_split": "validation",
+  "test_evaluated": false
+}

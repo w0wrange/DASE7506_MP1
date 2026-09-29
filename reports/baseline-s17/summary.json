@@ -1,0 +1,119 @@
+{
+  "run_id": "baseline-s17",
+  "date_local": "2026-09-18",
+  "timezone": "Asia/Shanghai",
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "seed": 17,
+  "hardware": {
+    "cpu": "12th Gen Intel(R) Core(TM) i7-12700H",
+    "logical_cpus": 20,
+    "os": "Windows 11 (10.0.26200)",
+    "device": "cpu",
+    "torch_threads": 4
+  },
+  "environment": {
+    "python": "3.12.2",
+    "torch": "2.7.1+cpu",
+    "numpy": "2.5.3",
+    "tokenizers": "0.21.4"
+  },
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "parameters": 1088256,
+  "training": {
+    "steps": 1200,
+    "batch_size": 32,
+    "processed_targets": 9830400,
+    "precision": "fp32",
+    "parent_checkpoints": [],
+    "checkpoint_selection": "Fixed final step 1200; no parameter search or test-based selection",
+    "train_seconds": 443.0435793000015,
+    "wall_seconds_including_imports_loading_and_final_validation": 464.24559359999876,
+    "process_cpu_seconds_all_threads": 1489.5625,
+    "peak_working_set_bytes": 1671905280,
+    "peak_working_set_gib": 1.5570831298828125,
+    "peak_commit_bytes": 2539159552,
+    "resources": "train.resources.json",
+    "log": "train.log"
+  },
+  "validation": {
+    "bpb": 2.071083638533899,
+    "token_ppl": 79.52826100503707,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "windows": 1472,
+    "scoring_seconds": 6.458481499999834,
+    "wall_seconds_including_imports_and_loading": 17.770384299999932,
+    "process_cpu_seconds_all_threads": 33.578125,
+    "peak_working_set_bytes": 1685065728,
+    "peak_working_set_gib": 1.5693397521972656,
+    "peak_commit_bytes": 2565029888,
+    "score_file": "../../runs/baseline-s17/validation_cpu_fp32.json",
+    "resources": "validation.resources.json",
+    "log": "validation.log"
+  },
+  "test": {
+    "bpb": 2.1012604380869244,
+    "token_ppl": 80.84711881780987,
+    "targets": 428405,
+    "utf8_bytes": 1292013,
+    "windows": 1674,
+    "scoring_seconds": 8.011105499999758,
+    "wall_seconds_including_imports_and_loading": 17.677552099999957,
+    "process_cpu_seconds_all_threads": 36.390625,
+    "peak_working_set_bytes": 1684230144,
+    "peak_working_set_gib": 1.5685615539550781,
+    "peak_commit_bytes": 2564247552,
+    "score_file": "../../runs/baseline-s17/test_cpu_fp32.json",
+    "resources": "test.resources.json",
+    "log": "test.log"
+  },
+  "checkpoint": {
+    "path": "../../runs/baseline-s17/checkpoint.pt",
+    "bytes": 4370805,
+    "mib": 4.1683244705200195,
+    "archive_content_uncompressed_bytes": 4359647,
+    "archive_compression": "ZIP_STORED",
+    "sha256": "b7fdb67c8ef14b5166c0de1f17cf306f34800b41dfe97da856c9812cdb1f9701"
+  },
+  "tests": {
+    "passed": 5,
+    "failed": 0,
+    "unittest_seconds": 0.047,
+    "pip_check": "No broken requirements found",
+    "log": "tests.log",
+    "resources": "tests.resources.json"
+  },
+  "verification": {
+    "source_model_training_evaluator_tests_and_data_match_release": true,
+    "checkpoint_sha256_matches_both_scores": true,
+    "training_and_standalone_validation_bpb_identical": true,
+    "full_targets_and_windows_verified": true,
+    "bpb_recomputed_from_saved_window_losses": true
+  },
+  "measurement": {
+    "ram": "Windows GetProcessMemoryInfo lifetime PeakWorkingSetSize for each fresh process, including Python/imports/data loading; no child workers in this baseline.",
+    "peak_commit": "Recorded separately; it is committed memory, not resident RAM.",
+    "time": "Pure training/scoring wall time from unchanged original scripts. Total target wall and aggregate CPU time from measure_run.py. Each stage runs sequentially. One standalone timing measurement per split.",
+    "cpu_memory_in_official_json": "peak_allocated_gb and peak_reserved_gb are CUDA-only and report 0 on CPU; use sidecar resource files for CPU RAM."
+  },
+  "future_comparison": {
+    "reference_test_scoring_seconds": 8.011105499999758,
+    "five_times_reference_seconds": 40.05552749999879,
+    "conditions": "Same machine, CPU FP32, four torch threads, supplied full-test scorer; remeasure baseline under comparable load when making formal resource comparisons."
+  },
+  "notes": [
+    "Training-source files and fixed evaluation/data files were not edited.",
+    "README.md already differs from PACKAGE_MANIFEST.json: actual SHA256 38b196fc2d3f0f50fd8633ea638d4f199d66c2d301aa4f632300be90557f7ea2.",
+    "No repository Git metadata was available; original package hashes and checkpoint hash identify this run.",
+    "Checkpoint size is reported separately from shared evaluator/tokenizer/source dependencies; no extra learned inference assets are used.",
+    "Codex assisted with execution, the resource measurement wrapper, and this report."
+  ]
+}
+

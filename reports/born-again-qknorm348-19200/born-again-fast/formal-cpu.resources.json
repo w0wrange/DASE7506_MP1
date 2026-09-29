@@ -1,0 +1,41 @@
+{
+  "started_at_utc": "2026-09-28T17:19:57.957475+00:00",
+  "finished_at_utc": "2026-09-28T17:20:35.735421+00:00",
+  "command": [
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\.venv-cpu\\Scripts\\python.exe",
+    "evaluate.py",
+    "--checkpoint",
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\reports\\born-again-qknorm348-19200\\born-again-fast\\checkpoint.pt",
+    "--device",
+    "cpu",
+    "--precision",
+    "fp32",
+    "--threads",
+    "4",
+    "--split",
+    "validation",
+    "--output",
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\reports\\born-again-qknorm348-19200\\born-again-fast\\formal-cpu-validation.json"
+  ],
+  "command_line": "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\.venv-cpu\\Scripts\\python.exe evaluate.py --checkpoint E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\reports\\born-again-qknorm348-19200\\born-again-fast\\checkpoint.pt --device cpu --precision fp32 --threads 4 --split validation --output E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\reports\\born-again-qknorm348-19200\\born-again-fast\\formal-cpu-validation.json",
+  "cwd": "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code",
+  "exit_code": 0,
+  "wall_seconds_including_imports_and_loading": 37.76845050000702,
+  "process_cpu_seconds_all_threads": 114.03125,
+  "peak_working_set_bytes": 1773707264,
+  "peak_working_set_mib": 1691.5390625,
+  "peak_working_set_gib": 1.6518936157226562,
+  "peak_commit_bytes": 2710343680,
+  "peak_commit_mib": 2584.78515625,
+  "memory_method": "Windows GetProcessMemoryInfo lifetime high-water marks; fresh process per command; includes Python, imports, loading and target execution. Peak working set is resident RAM; peak commit is separate.",
+  "timing_method": "Target wall and process CPU time include imports/loading, exclude recorder setup/report writing. Use original metrics.json/evaluation seconds for pure training/scoring.",
+  "python_version": "3.12.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpu_count": 20,
+  "packages": {
+    "torch": "2.7.1+cpu",
+    "numpy": "2.5.3",
+    "tokenizers": "0.21.4"
+  }
+}

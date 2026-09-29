@@ -1,0 +1,41 @@
+{
+  "started_at_utc": "2026-09-28T17:20:36.209458+00:00",
+  "finished_at_utc": "2026-09-28T17:20:51.559212+00:00",
+  "command": [
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\.venv-cpu\\Scripts\\python.exe",
+    "evaluate.py",
+    "--checkpoint",
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\runs\\baseline-s17\\checkpoint.pt",
+    "--device",
+    "cpu",
+    "--precision",
+    "fp32",
+    "--threads",
+    "4",
+    "--split",
+    "validation",
+    "--output",
+    "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\reports\\born-again-qknorm348-19200\\born-again-fast\\baseline-after-validation.json"
+  ],
+  "command_line": "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\.venv-cpu\\Scripts\\python.exe evaluate.py --checkpoint E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\runs\\baseline-s17\\checkpoint.pt --device cpu --precision fp32 --threads 4 --split validation --output E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code\\reports\\born-again-qknorm348-19200\\born-again-fast\\baseline-after-validation.json",
+  "cwd": "E:\\HKU_course\\DASE7506\\project1\\MP1_student_starter\\MP1_student_starter\\code",
+  "exit_code": 0,
+  "wall_seconds_including_imports_and_loading": 15.348149400000693,
+  "process_cpu_seconds_all_threads": 30.828125,
+  "peak_working_set_bytes": 1682075648,
+  "peak_working_set_mib": 1604.15234375,
+  "peak_working_set_gib": 1.5665550231933594,
+  "peak_commit_bytes": 2563141632,
+  "peak_commit_mib": 2444.40234375,
+  "memory_method": "Windows GetProcessMemoryInfo lifetime high-water marks; fresh process per command; includes Python, imports, loading and target execution. Peak working set is resident RAM; peak commit is separate.",
+  "timing_method": "Target wall and process CPU time include imports/loading, exclude recorder setup/report writing. Use original metrics.json/evaluation seconds for pure training/scoring.",
+  "python_version": "3.12.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logical_cpu_count": 20,
+  "packages": {
+    "torch": "2.7.1+cpu",
+    "numpy": "2.5.3",
+    "tokenizers": "0.21.4"
+  }
+}

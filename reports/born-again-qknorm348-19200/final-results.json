@@ -1,0 +1,24 @@
+{
+  "selected_method": "born-again",
+  "checkpoint": "reports\\born-again-qknorm348-19200\\born-again-fast\\checkpoint.pt",
+  "checkpoint_sha256": "981d85a72df78ffa0a53845f1e00f2ddf0334c40682afaa7ad0d476274def681",
+  "implementation_sha256": "e1cf226580954ad73ef9e8cbc261b8e4b45c1d8dd1ae71546dd872ebb512f271",
+  "selection_split": "validation",
+  "validation_bpb": 1.4501509920851057,
+  "previous_best_validation_bpb": 1.468614158,
+  "validation_bpb_improvement": 0.018463165914894386,
+  "validation_cpu_ratio_fastest_baseline": 4.701265342803094,
+  "validation_peak_ram_gib": 1.6518936157226562,
+  "inference_asset_bytes": 34743281,
+  "resource_limits": {
+    "cpu_ratio": 5,
+    "peak_ram_gib": 4,
+    "inference_asset_bytes": 67108864
+  },
+  "test_evaluated_once": true,
+  "test_bpb": 1.4680303500941403,
+  "test_seconds": 29.75951649999479,
+  "test_peak_ram_gib": 1.6519775390625,
+  "test_output": "reports\\born-again-qknorm348-19200\\selected-test.json",
+  "test_resource_output": "reports\\born-again-qknorm348-19200\\selected-test.resources.json"
+}
